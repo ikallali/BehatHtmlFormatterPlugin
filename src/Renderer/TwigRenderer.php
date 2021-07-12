@@ -5,8 +5,6 @@ namespace emuse\BehatHTMLFormatter\Renderer;
 use emuse\BehatHTMLFormatter\Formatter\BehatHTMLFormatter;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
-use Twig_Environment;
-use Twig_Loader_Filesystem;
 
 /**
  * Twig renderer for Behat report.
