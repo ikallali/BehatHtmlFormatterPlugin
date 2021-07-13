@@ -782,7 +782,7 @@ class Behat2Renderer implements RendererInterface
      */
     public function getJS()
     {
-        return "<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js'></script>
+        return "
         <script type='text/javascript'>
             $(document).ready(function(){
                 Array.prototype.diff = function(a) {
